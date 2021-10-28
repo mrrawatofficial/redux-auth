@@ -29,10 +29,10 @@ const Index = () => {
 		return result;
 	};
 	const copyColor = () => {
-		navigator.clipboard.writeText(gradient != "" ? gradient : color).then(
+		navigator.clipboard.writeText(gradient !== "" ? gradient : color).then(
 			function () {
 				toast.success(
-					`${gradient != "" ? gradient : color} Copied Successfully`
+					`${gradient !== "" ? gradient : color} Copied Successfully`
 				);
 			},
 			function () {
@@ -44,7 +44,7 @@ const Index = () => {
 	return (
 		<section
 			className="random-bg"
-			style={{ background: gradient != "" ? gradient : color }}
+			style={{ background: gradient !== "" ? gradient : color }}
 		>
 			<div className="box">
 				<h2 className="text-center">This color is random generated</h2>
@@ -52,7 +52,7 @@ const Index = () => {
 					type="text"
 					readOnly
 					className="form-control my-3"
-					value={gradient != "" ? gradient : color}
+					value={gradient !== "" ? gradient : color}
 				/>
 				<div className="btn-group">
 					<button className="btn btn-info" onClick={generateColor}>
