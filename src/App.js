@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 // import Dashboard from "./pages/Dashboard"; //for dashboard
 import Home from "./pages/Home";
+// import RandomBG from "./pages/randomBG";
 // import Products from "./pages/ProductList"; // for product page
 // import Register from "./pages/Register";
 function App() {

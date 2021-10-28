@@ -1,0 +1,16 @@
+.random-bg {
+	min-height: calc(100vh - 58px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.random-bg .box {
+	max-width: 700px;
+	border-radius: 15px;
+	padding: 50px;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+.random-bg .btn-group {
+	display: flex;
+	justify-content: space-between;
+}
