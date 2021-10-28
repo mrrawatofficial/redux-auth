@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 // import Dashboard from "./pages/Dashboard"; //for dashboard
 import Home from "./pages/Home";
+// import RandomPass from "./pages/RandomPass";
 // import RandomBG from "./pages/RandomBG";
 // import Products from "./pages/ProductList"; // for product page
 // import Register from "./pages/Register";
